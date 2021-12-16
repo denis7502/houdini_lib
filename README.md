@@ -122,14 +122,12 @@ copyToBroadwise(node) - вставка нод в ширь
 
 
 update()
-"""
 	Возвращает обновленные глобальные параметры.
 	Выбранные ноды - массив типа hou.Node
 	Нетворк - ссылка на Нетворк типа hou.NetworkEditor
 	Позиция курсора - двумерный вектор типа hou.Vector2
 	Нода - нода текущего пр-ва типа hou.Node
 	Список всех ноды в текущем пр-ве tuple типа hou.Node
-"""
 
 createNode(name, node_name=None, move_to_cursor=True, move_good_pos=False, move_to_vec=[False, [0, 0]])
 	Созадаёт ноду с указаными параметрами
